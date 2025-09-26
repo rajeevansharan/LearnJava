@@ -1,3 +1,4 @@
+package BasicClassObjects;
 
 interface Person
 {
@@ -31,12 +32,12 @@ class GetobjForClass {
     //when a method returns interface it actually returns the object of the class that implements that interface
     public Person getStobj(String name)
     {
-        return new StudentR();  // it returns  object of StudentR class
+        return new StudentR();  // it returns  object of BasicClassObjects.StudentR class
     }
 
     public Person getLec(String name)
     {
-        return new Lecture();  //It returns object of Lecture class
+        return new Lecture();  //It returns object of BasicClassObjects.Lecture class
     }
 }
 
