@@ -42,6 +42,17 @@ class LinkedList {
         }
 
     }
+
+    void delete()
+    {
+        Node temp = head;
+        Node prev;
+        while(temp.next!=null)
+        {
+            prev=temp;
+            temp= temp.next;
+        }
+    }
 }
 
 
